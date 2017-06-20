@@ -5,9 +5,9 @@ In this project we are going to get more familiar with the process of building o
 - Download `project_skeleton.zip` and unzip (feel free to rename the folder as wel)
 - navigate into the folder and run `npm install`
 - run `npm run bundle` to bundle our files and let webpack start watching them.
-- run `open index.html` in the command line to open up the current state of our App.
+- run `open index.html` in the command line to open up the current state of our App in the browser.
 
-### Explore
+### Take a look around
 Take a look at the project file structure
 - `index.html` renders a simple `div` that our root React component hooks into.
 - the `frontend` folder stores all our application's moving parts
@@ -17,8 +17,8 @@ Take a look at the project file structure
   - `store` just has the store
   - `foodstand.jsx` is our 'entry' file where we hook/render our Root React component into `index.html`
 
-### Fruit stand
-After you open the app you'll see that we have a functioning fruit stand. You can add apples and oranges, as well as any other user input.
+### Fruits For Sale!!!
+After you open the app you'll see that we have a functioning fruit stand. You can add apples and oranges, as well as any other fruit via user input.
 
 ### I like fruit.... but what about snacks?
 Fruit is awesome, but I like chips too... and other unhealthy snacks for that matter. Let's dive in and add a new layer to our App that will allow us to add different kinds of snacks into our Food Stand.
