@@ -1,12 +1,12 @@
 import React from 'react';
 import FruitStandContainer from './fruit_stand_container';
-import HotDogsContainer from './hot_dogs_container';
+// 1. Import your SnackContainer component
 
 const App = (props) => {
   return(
     <section>
       <FruitStandContainer />
-      <HotDogsContainer />
+      // 2. render your SnackContainer component here
     </section>
   );
 };
