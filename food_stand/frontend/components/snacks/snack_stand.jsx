@@ -14,7 +14,7 @@ import React from 'react';
 //    - It should return jsx that:
 //      - displays a <ul> of the snack <li>'s
 //      - As well as any necessary buttons
-//      - and the SnackInput component
+//      - and the SnackInput component (what action will you have to pass it as props?)
 const SnackStand = (props) => {
   //
   // your code goes here
