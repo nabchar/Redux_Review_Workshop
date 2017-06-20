@@ -2,11 +2,8 @@ import React from 'react';
 
 import FruitInput from './fruit_input';
 
-// functional components don't need a
-// render method -- they ARE a render method (essentially)
-const FruitStand = (props) => {
+const FruitStand = (props) => { // a functional component!
   // construct array of <li>s
-  // debugger
   const fruits = props.fruit.map((fruit) => {
     return (
       <li>
@@ -27,6 +24,5 @@ const FruitStand = (props) => {
     </section>
   );
 };
-
 
 export default FruitStand;
