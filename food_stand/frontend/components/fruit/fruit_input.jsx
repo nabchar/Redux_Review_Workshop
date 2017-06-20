@@ -24,7 +24,7 @@ class FruitInput extends React.Component {
     this.props.addFruit(this.state.fruit);
     this.setState({
       fruit: ""
-    }); // not the best, wait until we start using AJAX requests for the better version
+    });
   }
 
   render() {
