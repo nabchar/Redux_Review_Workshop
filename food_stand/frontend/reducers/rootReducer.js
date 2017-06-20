@@ -1,11 +1,12 @@
 import { combineReducers } from 'redux';
 
 import fruit from './fruitReducer';
-import hotDogs from './hotDogReducer';
+
+// 1. import your snackReducer
 
 const rootReducer = combineReducers({
-  fruit,
-  hotDogs
+  fruit
+  // 2. add snacks as a new slice of state for your app
 });
 
 export default rootReducer;

@@ -22,3 +22,7 @@ As before, refer to the fruitReducer if you get stuck.
 //    3.1 Use Object.freeze to prevent mutation of oldState.
 //    3.2 Use a switch statement to handle each possible action.
 //    3.3 Remember to return oldState by default.
+
+
+// NOTE: When you have finished, import your snackReducer into your rootReducer file
+// and add snacks as a new slice of state in the combineReducers function.
